@@ -1,0 +1,171 @@
+body{
+    background-image: url(kitchenlogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+:root{
+    --main: color #1f232a;
+    --primary: color #ce962e;
+    --black:#222;
+    --white:#fff;
+    --bg:#f2f2f2;
+    --light-black:#666;
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,1);
+    
+}
+
+*{
+    font-family:'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+    text-transform: capitalize;
+
+}
+
+html{
+    font-size: 80.5%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top:6rem;
+
+}
+
+html::-webkit-scrollbar{
+    width:1rem;
+}
+html::-webkit-scrollbar-track{
+    background: var(--white);
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--primary-color);
+}
+
+section{
+    padding: 3rem 9%;
+}
+
+
+.header{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+    position: static;
+    top: 0; left: 0;right: 0;
+    background: var(--bg);
+    z-index: 1000;
+    text-transform: capitalize;
+
+    
+}
+.logo{
+    width: 60px;
+}
+
+
+.header.logo{
+    
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--black);
+}
+
+.header .logo i{
+    color: var(--primary-color);
+    padding: 0rem;
+    font-size: 0rem;
+    
+}
+
+.header .navbar a{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: var(--black);
+
+}
+
+.header .navbar a:hover{
+    color: var(--primary-color);
+}
+
+.header .icons div{
+    cursor: pointer;
+    font-size: 2.5rem;
+    color: var(--black);
+    margin-left: 2rem;
+}
+
+.header .icons div:hover{
+    color: var(--primary-color);
+}
+
+#menu-btn{
+    display: none;
+}
+
+
+.home{
+    padding: 0;
+}
+
+.home .slide{
+    min-height: 100vh;
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .slide .content{
+    width: 70rem;
+    text-align: center;
+
+}
+
+.home .slide .content h3{
+    font-size: 3rem;
+    
+    text-transform: uppercase;
+    color: black;
+    line-height: 1.1;
+    padding: 2rem;
+}
+
+.home .slide.content span{
+    font-size: 2.5rem;
+    color: var(--primary-color);
+
+}
+
+.home .swiper-slide-active .content{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
